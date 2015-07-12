@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D26CEA571B5204AB00624142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CEA561B5204AB00624142 /* main.m */; };
+		D26CEA5A1B5204AB00624142 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CEA591B5204AB00624142 /* AppDelegate.m */; };
+		D26CEA5D1B5204AB00624142 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CEA5C1B5204AB00624142 /* HomeViewController.m */; };
+		D26CEA601B5204AB00624142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26CEA5E1B5204AB00624142 /* Main.storyboard */; };
+		D26CEA621B5204AB00624142 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26CEA611B5204AB00624142 /* Images.xcassets */; };
+		D26CEA651B5204AB00624142 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26CEA631B5204AB00624142 /* LaunchScreen.xib */; };
+		D26CEA711B5204AB00624142 /* HolidayDestinationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CEA701B5204AB00624142 /* HolidayDestinationsTests.m */; };
+		D26CEA7C1B5211FA00624142 /* HolidayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CEA7B1B5211FA00624142 /* HolidayViewController.m */; };
+		D26CEA7F1B52253600624142 /* BookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CEA7E1B52253600624142 /* BookingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D26CEA6B1B5204AB00624142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D26CEA491B5204AA00624142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26CEA501B5204AB00624142;
+			remoteInfo = HolidayDestinations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D26CEA511B5204AB00624142 /* HolidayDestinations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidayDestinations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26CEA551B5204AB00624142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26CEA561B5204AB00624142 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D26CEA581B5204AB00624142 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D26CEA591B5204AB00624142 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D26CEA5B1B5204AB00624142 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D26CEA5C1B5204AB00624142 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D26CEA5F1B5204AB00624142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D26CEA611B5204AB00624142 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D26CEA641B5204AB00624142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D26CEA6A1B5204AB00624142 /* HolidayDestinationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayDestinationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26CEA6F1B5204AB00624142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26CEA701B5204AB00624142 /* HolidayDestinationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HolidayDestinationsTests.m; sourceTree = "<group>"; };
+		D26CEA7A1B5211FA00624142 /* HolidayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolidayViewController.h; sourceTree = "<group>"; };
+		D26CEA7B1B5211FA00624142 /* HolidayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HolidayViewController.m; sourceTree = "<group>"; };
+		D26CEA7D1B52253600624142 /* BookingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingViewController.h; sourceTree = "<group>"; };
+		D26CEA7E1B52253600624142 /* BookingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D26CEA4E1B5204AB00624142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26CEA671B5204AB00624142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D26CEA481B5204AA00624142 = {
+			isa = PBXGroup;
+			children = (
+				D26CEA531B5204AB00624142 /* HolidayDestinations */,
+				D26CEA6D1B5204AB00624142 /* HolidayDestinationsTests */,
+				D26CEA521B5204AB00624142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D26CEA521B5204AB00624142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D26CEA511B5204AB00624142 /* HolidayDestinations.app */,
+				D26CEA6A1B5204AB00624142 /* HolidayDestinationsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26CEA531B5204AB00624142 /* HolidayDestinations */ = {
+			isa = PBXGroup;
+			children = (
+				D26CEA581B5204AB00624142 /* AppDelegate.h */,
+				D26CEA591B5204AB00624142 /* AppDelegate.m */,
+				D26CEA5B1B5204AB00624142 /* HomeViewController.h */,
+				D26CEA5C1B5204AB00624142 /* HomeViewController.m */,
+				D26CEA5E1B5204AB00624142 /* Main.storyboard */,
+				D26CEA7D1B52253600624142 /* BookingViewController.h */,
+				D26CEA7E1B52253600624142 /* BookingViewController.m */,
+				D26CEA7A1B5211FA00624142 /* HolidayViewController.h */,
+				D26CEA7B1B5211FA00624142 /* HolidayViewController.m */,
+				D26CEA611B5204AB00624142 /* Images.xcassets */,
+				D26CEA631B5204AB00624142 /* LaunchScreen.xib */,
+				D26CEA541B5204AB00624142 /* Supporting Files */,
+			);
+			path = HolidayDestinations;
+			sourceTree = "<group>";
+		};
+		D26CEA541B5204AB00624142 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D26CEA551B5204AB00624142 /* Info.plist */,
+				D26CEA561B5204AB00624142 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D26CEA6D1B5204AB00624142 /* HolidayDestinationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D26CEA701B5204AB00624142 /* HolidayDestinationsTests.m */,
+				D26CEA6E1B5204AB00624142 /* Supporting Files */,
+			);
+			path = HolidayDestinationsTests;
+			sourceTree = "<group>";
+		};
+		D26CEA6E1B5204AB00624142 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D26CEA6F1B5204AB00624142 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26CEA501B5204AB00624142 /* HolidayDestinations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26CEA741B5204AB00624142 /* Build configuration list for PBXNativeTarget "HolidayDestinations" */;
+			buildPhases = (
+				D26CEA4D1B5204AB00624142 /* Sources */,
+				D26CEA4E1B5204AB00624142 /* Frameworks */,
+				D26CEA4F1B5204AB00624142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolidayDestinations;
+			productName = HolidayDestinations;
+			productReference = D26CEA511B5204AB00624142 /* HolidayDestinations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D26CEA691B5204AB00624142 /* HolidayDestinationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26CEA771B5204AB00624142 /* Build configuration list for PBXNativeTarget "HolidayDestinationsTests" */;
+			buildPhases = (
+				D26CEA661B5204AB00624142 /* Sources */,
+				D26CEA671B5204AB00624142 /* Frameworks */,
+				D26CEA681B5204AB00624142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26CEA6C1B5204AB00624142 /* PBXTargetDependency */,
+			);
+			name = HolidayDestinationsTests;
+			productName = HolidayDestinationsTests;
+			productReference = D26CEA6A1B5204AB00624142 /* HolidayDestinationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D26CEA491B5204AA00624142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "NP ECE BME Centre";
+				TargetAttributes = {
+					D26CEA501B5204AB00624142 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D26CEA691B5204AB00624142 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D26CEA501B5204AB00624142;
+					};
+				};
+			};
+			buildConfigurationList = D26CEA4C1B5204AA00624142 /* Build configuration list for PBXProject "HolidayDestinations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D26CEA481B5204AA00624142;
+			productRefGroup = D26CEA521B5204AB00624142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26CEA501B5204AB00624142 /* HolidayDestinations */,
+				D26CEA691B5204AB00624142 /* HolidayDestinationsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D26CEA4F1B5204AB00624142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26CEA601B5204AB00624142 /* Main.storyboard in Resources */,
+				D26CEA651B5204AB00624142 /* LaunchScreen.xib in Resources */,
+				D26CEA621B5204AB00624142 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26CEA681B5204AB00624142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D26CEA4D1B5204AB00624142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26CEA5D1B5204AB00624142 /* HomeViewController.m in Sources */,
+				D26CEA5A1B5204AB00624142 /* AppDelegate.m in Sources */,
+				D26CEA571B5204AB00624142 /* main.m in Sources */,
+				D26CEA7F1B52253600624142 /* BookingViewController.m in Sources */,
+				D26CEA7C1B5211FA00624142 /* HolidayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26CEA661B5204AB00624142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26CEA711B5204AB00624142 /* HolidayDestinationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D26CEA6C1B5204AB00624142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D26CEA501B5204AB00624142 /* HolidayDestinations */;
+			targetProxy = D26CEA6B1B5204AB00624142 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D26CEA5E1B5204AB00624142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26CEA5F1B5204AB00624142 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D26CEA631B5204AB00624142 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26CEA641B5204AB00624142 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D26CEA721B5204AB00624142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D26CEA731B5204AB00624142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D26CEA751B5204AB00624142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolidayDestinations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D26CEA761B5204AB00624142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HolidayDestinations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D26CEA781B5204AB00624142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HolidayDestinationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolidayDestinations.app/HolidayDestinations";
+			};
+			name = Debug;
+		};
+		D26CEA791B5204AB00624142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HolidayDestinationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolidayDestinations.app/HolidayDestinations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D26CEA4C1B5204AA00624142 /* Build configuration list for PBXProject "HolidayDestinations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26CEA721B5204AB00624142 /* Debug */,
+				D26CEA731B5204AB00624142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26CEA741B5204AB00624142 /* Build configuration list for PBXNativeTarget "HolidayDestinations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26CEA751B5204AB00624142 /* Debug */,
+				D26CEA761B5204AB00624142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D26CEA771B5204AB00624142 /* Build configuration list for PBXNativeTarget "HolidayDestinationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26CEA781B5204AB00624142 /* Debug */,
+				D26CEA791B5204AB00624142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D26CEA491B5204AA00624142 /* Project object */;
+}
